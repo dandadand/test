@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# Build
+dist/
+build/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dev
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.thumbs.db
+
+# Development
+.next/
+.tanstack/
+
+# Wrangler (Cloudflare)
+.wrangler/
+wrangler.jsonc
